@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 35%;
+    border: solid white;
+    border-radius: 98%;
+}
+
+.navbar{
+    display: flex;
+    background-color:#0b0a16;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor: pointer;
+
+}
+.btn-small{
+    background-color:#0c0b0b;
+    border: none;
+    color: white;
+    padding: 7px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-small:hover {opacity: 1}
+
+.nav-list{
+width: 50%;
+/* background-color:black; */
+display: flex;
+align-items: center;
+}
+
+
+.nav-list li{
+    list-style: none;
+    padding: 16px 24px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white; 
+ 
+  
+
+}
+.nav-list li a:hover{
+    background-color: rgb(8, 8, 8);
+  color: rgb(194, 145, 145);
+    /* color: black; */
+}
+
+
+.rightNav{
+    width: 50%;
+    /* background-color:orange; */
+    text-align: right;
+    padding: 0px 38px;
+}
+#search{
+   padding:4px ;
+   font-size: 18px;
+    border: 1px solid black;
+    border-radius: 9%;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../image/building.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.secondHalf{
+width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 150%;
+    display: block;
+    margin: auto;
+}
+.textBig{
+font-size: 33px;
+}
+
+.textSmall{
+    font-size: 19px;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 5px 16px;
+    margin: 6px 0px;
+    border: 2px solid whitesmoke;
+    border-radius: 14px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    }
+
+    .section{
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+
+    .paras{
+        padding:0px 72px;
+    }
+
+    .secLeft{
+        flex-direction: row-reverse;
+      
+    }
+
+    .sectionSubTag{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /* .contact{
+        height: 200px;
+        background-color: rgb(214, 233, 227);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    } */
+.contactImage{
+  width:50%;
+  height: 50%;
+    border: 2px solid white;
+    border-radius: 150%;
+    display: block;
+    margin: auto;
+    
+}
